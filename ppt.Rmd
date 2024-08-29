@@ -1,0 +1,61 @@
+---
+title: "As implicações metodológicas da Revolução da Credibilidade e Inferência Bayesiana para a pesquisa qualitativa"
+author: "Manoel Galino"
+date: "2024-06-30"
+output: beamer_presentation
+---
+
+## Motivação
+
+- A pesquisa qualitativa, para fins causais, supostamente possui limitações que a quantitativa não possui.
+- Não seria possível generalizar para além dos casos, ao contrário da pesquisa quantitativa.
+- Será que isso é verdade se a pesquisa for causal? 
+- Haveria essa superioridade da pesquisa quanti sobre a quali?
+
+## Revolução da Credibilidade
+
+- Mudanças no paradigma metodológico da inferência causal.
+- Separação entre Identificação causal e estimação
+- Implicações não apreciadas para a pesquisa qualitativa.
+
+## Identificação Causal
+
+- A identificação causal diz respeito à validade interna da pesquisa
+- Investiga se é possível estimar um parâmetro mesmo com amostra infinita
+- Estudos causalmente identificados não podem ser generalizados para outras populações (validade externa)
+
+## Implicações para a Pesquisa Qualitativa
+
+- Se estudos de caso possuem validade interna, então as limitações de generalização são similares às de pesquisa quanti
+- Validade interna diz respeito à inferência para casos similares.
+- Pesquisa quanti (causal) permite inferência a casos similares
+- Pesquisa quali (causal) permite inferência a casos similares
+
+## Soluções Práticas para Inferência em Amostras Pequenas
+
+- Qual a diferença então entre  $n$ grande e $n$ pequeno?
+- Problemas de inferência em estudos qualitativos.
+- Frequencismo requer $n$ grande para saber se não é variação aleatória ou se efeito causal é real
+- Abordagem Bayesiana como solução.
+
+## Soluções Práticas para Inferência em Amostras Pequenas (II)
+
+- Rastreamento de processo Bayesiano
+- Utilização de DAGs (Directed Acyclic Graphs) e queries causais.
+
+## Transportabilidade
+
+- A validade externa está associada ao problema da transportabilidade
+- Os paradigmas de queries causais e rastreio de processo Bayesiano permitem incorporar métodos de transportabilidade
+- Integração quali-quanti (métodos mistos)
+
+## Considerações Finais
+
+- Generalização não é uma diferença de limitação entre pesquisa quali e quanti (causal)
+- Esse é um impacto não apreciado da Revolução da Credibilidade na pesquisa qualitativa.
+- Esforços devem ser direcionados para questões de inferência estatística com inferência Bayesiana na pesquisa qualitativa
+- Maior valorização da integração de métodos qualitativos e quantitativos.
+
+
+
+

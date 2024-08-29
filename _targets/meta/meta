@@ -1,0 +1,7 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+sim_query|function|5c471ac728df16ce|||||||||||||||
+sim1|stem|7271316e3932b3f0|2654159096cc4115|54335b29c06653a5|1055823915||t19910.9301980229s|af3c8df1178dfb66|1164|rds|local|vector|||356.09|package ggplot2 was built under R version 4.3.2|
+sim2|stem|de7ff20ddc2a1645|d0383f7b17597a8e|54335b29c06653a5|20738877||t19910.9368263537s|1e0c41a98502c370|1161|rds|local|vector|||572.64||
+sim3|stem|1af355114f5e01bd|71d8c2677ffd6bbd|54335b29c06653a5|1291678910||t19910.9564230491s|2cf6c94c1716fa11|1177|rds|local|vector|||1693.12||
+sim4|stem|6c2b5b59e94cd02c|1b9b76848ab6bb63|54335b29c06653a5|1016719199||t19910.9589327292s|0c80b6416599ff0a|1148|rds|local|vector|||216.78||
+sim5|stem|189228cb4ba2ce58|b62770bd8485cf7d|54335b29c06653a5|1433726006||t19910.9729156569s|dd437de9c685bced|1163|rds|local|vector|||1208.08||
