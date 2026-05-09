@@ -7,6 +7,8 @@ Lista de pontos identificados durante a edição da v8 que precisam de retrabalh
 
 ## P-V8-1: Jargão "U" introduzido sem scaffolding na introdução
 
+**Status**: RESOLVIDO em 2026-05-09 (uncommitted; opção 1 adotada — substituir $U$ por linguagem em prosa, preservando consistência com §4 onde $U$ é formalizado como notação técnica). Aplicado em DOIS lugares: (i) introdução linha 43, "qualquer $U$ é livremente conjeturável" → "qualquer confundidor desse tipo é livremente conjeturável"; (ii) abstract — apontado pelo autor durante a sessão como instância adicional —, "deixa de ser 'e se houver um U?'" → "deixa de ser 'e se houver um confundidor não considerado?'". Pontuação ajustada também na intro para fluência (separar período longo em dois).
+
 **Local**: Introdução, parágrafo da Camada 2 da contribuição (atualmente em `paper_dados_format_quali.Rmd`, ~linha 38).
 
 **Trecho problemático** (estado atual):
@@ -92,7 +94,7 @@ Se o agente *deve* mencionar alguma dessas para descrevê-la criticamente (como 
 
 ## P-V8-3: Recontextualização de Sposito et al. (2022) em §2 — instância concreta de P-V8-2
 
-**Status**: aberto — enriquecimento de §2 pendente
+**Status**: RESOLVIDO em 2026-05-09 (uncommitted; parágrafo novo na §2 entre P-V8-6 e o parágrafo de ausência Bayesiana, abordando: tradeoff falso VI/VE, "universo causal homogêneo" como redefinição de escopo (paralelo F&C scope-shifting), "lógica determinista no grupo restrito" como folclore deterministic-vs-probabilistic, dissolução da tipologia EQ/PE/TC sob PO+IBE como vestidos da mesma máquina inferencial). Confusões #1 e #2 da lista original (tradeoff falso e profundidade-como-VI) foram cobertas anteriormente em §Transportabilidade via P-V8-2; #5 (tipologia como artefato) foi tocada por P-V8-6 e agora aprofundada explicitamente; #3 e #4 entram aqui pela primeira vez.
 **Identificado em**: 2026-05-09
 **Depende de**: P-V8-2 (mesmo diagnóstico, aplicação BR-específica)
 
@@ -163,7 +165,7 @@ A reformulação proposta em §2 (Sposito como Tipo B) deve incluir explicitamen
 
 ## P-V8-4: Pontuar que "n grande vs n pequeno" é eixo mal-enquadrado para causalidade
 
-**Status**: aberto — clarificação argumentativa
+**Status**: RESOLVIDO em 2026-05-09 (uncommitted; parágrafo curto inserido na introdução entre o diálogo com Spirling-Stewart e o roteiro do paper, e parágrafo correlato na §Considerações Finais entre a decomposição de seleção de casos e o parágrafo sobre inferência Bayesiana. Ambos punctuam que o eixo "n grande vs n pequeno" é mal-enquadrado para inferência causal e que identificação e inferência podem operar em qualquer regime de N sob critérios de credibilidade próprios — tecnologias de desenho com múltiplas observações na quanti, comparação Bayesiana de rivais em pequeno-n qualitativo).
 **Identificado em**: 2026-05-09
 **Prioridade**: média — está implícito ao longo do texto, mas nunca punctuado
 
