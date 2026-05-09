@@ -47,3 +47,32 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# macOS
+.DS_Store
+
+# LaTeX auxiliares (gerados)
+*.log
+*.aux
+*.toc
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
+# PDFs de referencia (biblioteca externa, nao versionar)
+# O paper compilado (`paper_dados_format_quali.pdf`) continua tracked.
+978-3-031-12982-7.pdf
+apsr-condacc-combined.pdf
+Spirling_Stewart_*.pdf
+Livro_desenho_de_pesquisa*.pdf
+Inference to the Best Explanation*.pdf
+paper_dados_format_quali_v[0-9]*.pdf
+
+# Arquivos administrativos / submissao (NAO versionar)
+*.pages
+*.docx
+Carta*.pdf
+Prezada*.pdf
+AnexoII*.pdf
+Manifestacao*.pdf
