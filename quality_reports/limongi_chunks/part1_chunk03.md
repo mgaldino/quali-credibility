@@ -1,0 +1,69 @@
+# Parte 1 - Chunk 03 (29:21-44:02)
+- Cobertura: segmentos sobrepostos ao recorte vão de 29:16 a 44:05; a análise usa apenas o conteúdo pertinente ao intervalo 29:21-44:02, com corte inicial no meio do primeiro segmento e corte final no meio do último.
+
+## Síntese
+- Limongi desloca a explicação do impeachment de uma narrativa centrada em Eduardo Cunha para uma disputa intracoalizão, transversal a PT, PMDB e demais partidos da base.
+- O mecanismo central é a fratura interna da coalizão governista: Cunha aparece como expressão de um grupo político, não como causa suficiente, e esse grupo tinha conexões relevantes dentro do próprio PT.
+- A reeleição de Dilma em 2014 é apresentada como momento de divisão explícita no PMDB: Michel Temer sustenta a manutenção da aliança PMDB-PT contra Cunha e Jorge Picciani, mas entra no segundo mandato enfraquecido frente a Cunha.
+- O primeiro governo Dilma é reinterpretado como sequência de conflitos entre Dilma e a tendência dominante do PT, especialmente em torno de Palocci, da máquina partidária e do controle político da Petrobras.
+- A troca de comando na Petrobras e a retirada de diretores associados a PP, PMDB e PT são tratadas como ponto alto do conflito, porque atingem recursos, posições e redes de poder que estruturavam a coalizão.
+- A reação à intervenção na Petrobras é descrita como tentativa de disciplinar a candidatura Dilma em 2014: a questão não seria impedir sua candidatura, mas definir se ela concorreria mantendo a limpeza ou recuando diante das pressões.
+
+## Linha Argumentativa Com Timestamps
+- 29:21: Limongi formula a tese metodológica do trecho: o processo deve ser observado como "briga intracoalizão". Atores: Dilma, PT, PMDB, Eduardo Cunha e facções da base. Mecanismo causal: conflitos internos da coalizão geram incentivos para realinhamento e sabotagem, em vez de uma ruptura simples entre governo e oposição.
+- 29:33: Ele revisa sua própria interpretação anterior, que atribuía peso excessivo a Eduardo Cunha. Atores: Limongi como pesquisador, Cunha, interlocutores do Cebrap. Mecanismo causal: a personificação obscurece a estrutura de grupos e alianças que dava capacidade de ação a Cunha.
+- 30:37: A pesquisa passa a reconstruir quem era Cunha, de onde vinha e quais eram suas opções de barganha com o PT. Atores: Cunha, PT, aliados internos de cada partido. Mecanismo causal: Cunha opera dentro de uma disputa transversal, conectando facções partidárias em vez de atuar como empreendedor isolado.
+- 30:53: O argumento se amplia para lutas internas simultâneas no PT, no PMDB e nos demais partidos da coalizão. Atores: facções partidárias da base governista. Mecanismo causal: conflitos intrapartidários aumentam a instabilidade da coalizão e tornam ambíguas as lealdades formais ao governo.
+- 31:11: Na eleição de 2014, Cunha e Temer aparecem em lados diferentes: Temer banca a manutenção da coligação PMDB-PT contra Cunha e Jorge Picciani. Atores: Dilma, Temer, Cunha, Picciani, PMDB carioca. Mecanismo causal: a continuidade eleitoral da coalizão depende de uma disputa interna no PMDB, não de consenso partidário.
+- 31:42: Temer é apresentado como fiel da continuidade da coligação, mas chega ao segundo governo Dilma brigado com Cunha. Atores: Temer, Cunha, Dilma. Mecanismo causal: a coalizão é formalmente preservada, porém nasce com uma clivagem interna que reduz a capacidade de coordenação do governo.
+- 32:02: O PMDB sai dividido em dois grupos de força parlamentar semelhante, segundo o cálculo citado, mas Cunha tem mais capacidade de mobilização do que Temer. Atores: bancadas do PMDB, Temer, Cunha. Mecanismo causal: equilíbrio interno fragmentado aumenta poder de chantagem e dificulta disciplina partidária.
+- 32:30: Temer cogita enfrentar Cunha pela presidência da Câmara e se aproximar de Dilma, mas recua. Atores: Temer, Cunha, Dilma. Mecanismo causal: a não confrontação de Cunha permite que ele capture posição institucional decisiva e amplifique a crise.
+- 32:58: Limongi insiste que Cunha expressava um grupo político com ligações fortes dentro do PT. Atores: Cunha, grupo político associado a ele, setores petistas. Mecanismo causal: a crise não decorre apenas de oposição externa ao PT, mas de alianças cruzadas entre facções da coalizão e da própria máquina petista.
+- 33:18: O foco recua para o primeiro governo Dilma e para os conflitos entre Dilma e a tendência dominante do PT, identificada como Construindo um Novo Brasil. Atores: Dilma, Lula, José Dirceu, CNB. Mecanismo causal: o afastamento entre presidenta e núcleo partidário dominante desorganiza a mediação política interna.
+- 33:51: A queda de Palocci é apresentada como início de uma sucessão de conflitos que afasta Dilma do PT. Atores: Dilma, Antonio Palocci, Lula, grupos ligados a Dirceu. Mecanismo causal: disputas pelo "homem forte" do governo convertem competição intrapartidária em crise de coordenação no Executivo.
+- 34:38: Palocci é descrito como homem de Lula, não da máquina partidária, o que explicaria o fogo amigo que o derruba. Atores: Lula, Palocci, máquina do PT. Mecanismo causal: facções excluídas do controle do governo usam desgaste interno para remover intermediários rivais.
+- 34:55: O ponto alto do conflito não é a faxina ministerial, mas a Petrobras. Atores: Dilma, Graça Foster, antiga diretoria da Petrobras. Mecanismo causal: a substituição de dirigentes atinge diretamente canais de influência partidária e recursos estratégicos.
+- 35:16: Dilma troca o comando da Petrobras e, com Graça Foster, remove três diretores associados a PP, PMDB e PT. Atores: Paulo Roberto Costa, Jorge Zelada, Renato Duque, PP, PMDB, PT. Mecanismo causal: a intervenção desmonta uma arquitetura de partilha partidária dentro da estatal.
+- 35:53: Limongi enfatiza que a imprensa registrava publicamente a indicação partidária desses diretores e a substituição por técnicos. Atores: imprensa, partidos da coalizão, diretoria técnica. Mecanismo causal: a evidência pública reforça que a mudança foi percebida politicamente como fechamento de espaços de influência.
+- 36:19: A limpeza na Petrobras é considerada maior do que a faxina ministerial porque enfrenta uma facção da coalizão montada no governo Lula. Atores: Dilma, facções da base, partidos com diretórios na Petrobras. Mecanismo causal: mexer na Petrobras desloca custos concentrados para atores com capacidade de retaliação.
+- 37:38: Os três diretores removidos são ligados à formação da Lava Jato como pilares investigativos. Atores: Paulo Roberto Costa, Zelada, Duque, Lava Jato. Mecanismo causal: a investigação posterior incide sobre o mesmo arranjo político-administrativo que Dilma havia tentado alterar.
+- 38:20: Limongi rejeita a leitura de que Dilma agia por republicanismo moralizante ou por aversão total ao jogo político. Atores: Dilma, analistas políticos, personagens mantidos na Petrobras e no entorno estatal. Mecanismo causal: a ação de Dilma é apresentada como seletiva e estratégica, não como purismo antipolítico.
+- 39:01: Exemplos de negociação mostram Dilma ameaçando retirar Sérgio Machado da Transpetro e Fábio Cleto da Caixa, mas acomodando ambos posteriormente. Atores: Sérgio Machado, Fábio Cleto, Eduardo Cunha, Dilma. Mecanismo causal: ameaças de demissão funcionam como instrumentos de barganha, seguidos de recomposição quando o conflito é administrável.
+- 39:41: O trecho contesta a imagem de Dilma como incapaz de negociar. Atores: Dilma e seus adversários interpretativos. Mecanismo causal: a presidenta sabia negociar o básico da política, mas a reação dos grupos desalojados da Petrobras foi mais intensa do que uma barganha ordinária.
+- 40:02: A reação dos que perderam espaço na Petrobras é descrita como virulenta. Atores: facções desalojadas da Petrobras, Dilma, PT. Mecanismo causal: a tentativa de ordenar a estatal ameaça posições materiais e um projeto estratégico, produzindo retaliação coordenada.
+- 40:23: A Petrobras aparece como peça central do projeto petista de industrialização via BNDES, pré-sal, navios e plataformas. Atores: PT, BNDES, Luciano Coutinho, setor petrolífero e industrial. Mecanismo causal: o controle da Petrobras não era apenas patronagem; era também mediação de um projeto econômico, o que eleva o custo político da intervenção.
+- 40:53: Limongi interpreta a reação como tentativa de inviabilizar ou disciplinar a candidatura de reeleição de Dilma. Atores: Dilma, adversários dentro da coalizão, Cunha. Mecanismo causal: pressões e escândalos buscavam forçar Dilma a recuar da limpeza e aceitar os termos dos grupos atingidos.
+- 41:16: A questão central é apresentada como o tipo de candidata que Dilma seria: continuadora da limpeza ou candidata obrigada a recuar. Atores: Dilma e adversários intracoalizão. Mecanismo causal: a disputa pré-eleitoral opera por sinalização e ameaça, condicionando a estratégia futura de governo.
+- 41:43: Cunha é associado à mobilização do escândalo de Pasadena contra Dilma. Atores: Eduardo Cunha, Dilma, Petrobras. Mecanismo causal: o escândalo serve como alavanca de pressão, conectando a posição de Dilma no Conselho de Administração da Petrobras à crise política.
+- 42:09: O caso Pasadena é usado para atribuir digitais a Dilma, embora o PMDB ainda estivesse fora daquela posição específica à época da compra. Atores: Dilma, PMDB/MDB, diretoria da Petrobras. Mecanismo causal: a denúncia seleciona responsabilidade formal de Dilma para produzir custo político, ao mesmo tempo em que preserva ambiguidades sobre responsabilidades partidárias.
+- 42:34: A diretoria envolvida é vinculada a Cerveró e Delcídio, com conexões construídas antes dos governos petistas. Atores: Nestor Cerveró, Delcídio do Amaral, PSDB, governo Fernando Henrique Cardoso, governo Itamar. Mecanismo causal: a genealogia das redes da Petrobras enfraquece a hipótese de que a corrupção tenha sido invenção exclusiva do PT.
+- 43:27: Ao voltar à candidatura de reeleição, Limongi sustenta que a coalizão reage por meio de facção que inclui Cunha e representantes fortes da tendência dominante do PT. Atores: Cunha, CNB, André Vargas como exemplo introduzido no fim do recorte. Mecanismo causal: a reação anti-Dilma emerge de uma coalizão cruzada de perdedores e aliados ambíguos, não de uma clivagem simples governo versus oposição.
+
+## Implicações Para O Estudo De Caso
+- Hipótese rival 1: a queda de Dilma decorreu sobretudo de antipetismo, oposição externa ou crise econômica. O trecho não nega esses fatores, mas oferece evidência de processo para uma explicação alternativa: a crise nasce dentro da coalizão governista, em facções com acesso a cargos, recursos e instrumentos institucionais.
+- Hipótese rival 2: Eduardo Cunha foi o motor individual do impeachment. Limongi corrige essa versão ao tratar Cunha como representante de um grupo. Para o estudo de caso, isso recomenda observar redes, facções e posições institucionais, não apenas preferências individuais.
+- Hipótese rival 3: Dilma perdeu apoio porque era incapaz de negociar. O trecho fornece contraevidência: ela ameaça, negocia e acomoda Sérgio Machado e Fábio Cleto. O problema causal seria menos incapacidade geral de negociação e mais o custo específico de mexer na Petrobras.
+- Evidência de processo: a sequência Palocci -> afastamento entre Dilma e CNB -> substituição da diretoria da Petrobras -> reação dos partidos atingidos -> uso de Pasadena contra Dilma cria uma cadeia temporal plausível para ligar conflito distributivo intracoalizão à escalada política.
+- Mediadores: cargos em estatais, controle de diretorias, acesso a recursos da Petrobras, presidência da Câmara, divisão interna do PMDB, relação Dilma-PT e escândalos mobilizados como instrumentos de barganha.
+- Restrições estruturais: a Petrobras aparece simultaneamente como fonte de coalizão, arena de patronagem e instrumento de política industrial. Isso cria dependência de trajetória: qualquer tentativa de reorganização técnica produz efeitos políticos amplificados.
+- IBE/Bayes: como inferência à melhor explicação, o trecho favorece uma narrativa de retaliação intracoalizão porque ela explica simultaneamente a divisão PMDB-PT, a centralidade da Petrobras, o uso de Pasadena e a conexão entre Cunha e setores do PT. Em termos bayesianos, a observação de que Temer e Cunha estavam em lados diferentes em 2014, enquanto Cunha tinha pontes com setores petistas, é mais provável sob a hipótese de conflito faccional cruzado do que sob uma hipótese puramente governo-oposição.
+- Para rastreamento causal, o trecho sugere coletar evidências independentes sobre: nomeações na Petrobras, reações públicas de PP/PMDB/PT às demissões, movimentação de Cunha no caso Pasadena, divisão da bancada do PMDB em 2014-2015 e vínculos de André Vargas ou outros quadros da CNB com redes associadas a Cunha.
+
+## Termos Incertos
+- "Miriam do Unicove": provável erro de Whisper; pode ser Miriam Dolhnikoff, historiadora ligada ao Cebrap.
+- "Passaporte de Cunha": título ou expressão transcrita de modo incerto; pode se referir a artigo anterior de Limongi sobre Cunha.
+- "Jorge Pisciani": provavelmente Jorge Picciani.
+- "Consuíno Novo Brasil": provavelmente Construindo um Novo Brasil, tendência interna do PT.
+- "José de Seu": provavelmente José Dirceu.
+- "Palócio": provavelmente Antonio Palocci.
+- "Gabriel do período Lula": provavelmente José Sergio Gabrielli, ex-presidente da Petrobras.
+- "Zelada": provavelmente Jorge Zelada.
+- "Dulque": provavelmente Renato Duque.
+- "tirada doselada": provavelmente retirada de Zelada.
+- "BMDES": provavelmente BNDES.
+- "Luciano Continho": provavelmente Luciano Coutinho.
+- "pressal": provavelmente pré-sal.
+- "passabena": provavelmente Pasadena.
+- "Fernanda Henrique Cardoso": provavelmente Fernando Henrique Cardoso.
+- "conversa de paboe dormir": provável expressão "conversa para boi dormir".
+- "lá ficou no dor": trecho ininteligível no contexto em que Limongi contrasta negociação ordinária com reação virulenta.

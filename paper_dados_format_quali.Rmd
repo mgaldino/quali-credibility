@@ -278,65 +278,89 @@ A operacionalização Bayesiana da comparação de explicações rivais não é 
 
 *Comparação com process tracing não-Bayesiano.* Process tracing na tradição Bennett-Checkel-Beach-Pedersen [@Bennett_Checkel_2015; @beach_pedersen_2019] dispensa a quantificação Bayesiana e opera com tipologia de testes (*hoop tests*, *smoking guns*, *doubly decisive*) cuja calibração é qualitativa. O ganho da abordagem Bayesiana é a explicitação dos pesos relativos das evidências e a possibilidade de análise de robustez quantitativa; o custo é a sobrecarga formal e o risco de teatro. Estudos com poucas evidências bem caracterizadas e com ampla familiaridade da pesquisadora com a literatura podem encontrar no process tracing tradicional o instrumento adequado, sem necessidade da maquinaria Bayesiana adicional.
 
-# Uma ilustração: o impeachment de 2016 sob comparação Bayesiana de explicações rivais
+# Uma ilustração: impeachment de 2016, desenho esparso e comparação de rivais
 
-Para tornar concreta a operacionalização proposta, aplicamos a comparação Bayesiana a uma pergunta com debate ativo na literatura politológica brasileira: por que Dilma Rousseff sofreu impeachment em 2016?\footnote{O exemplo é deliberadamente esquemático e ilustrativo. As hipóteses correspondem a interpretações sustentadas por vertentes distintas do debate brasileiro sobre a crise de 2016, mas não pretendemos esgotar a literatura nem atribuir cada hipótese a autores específicos; os valores numéricos atribuídos às verossimilhanças refletem julgamentos plausíveis à luz do debate público disponível, mas servem ao propósito didático de exibir a maquinaria do método. Uma aplicação substantiva exigiria elicitação cuidadosa caso a caso, eventualmente com expertise multidisciplinar.}
+Para tornar concreta a operacionalização proposta, tomemos uma pergunta com debate ativo na literatura politológica brasileira: o que melhor explica o colapso do apoio parlamentar que levou ao impeachment de Dilma Rousseff em 2016? Uma aplicação substantiva deveria partir de @Limongi_2023, que reconstrói o impeachment como processo político sequencial envolvendo Dilma, oposição, movimentos sociais, Eduardo Cunha, Michel Temer, PMDB, PSDB, PP e Lava Jato. A versão abaixo é uma tradução esquemática desse tipo de argumento para a linguagem de hipóteses rivais, evidências processuais e verossimilhanças.\footnote{O exemplo é deliberadamente esquemático e ilustrativo. As hipóteses correspondem a interpretações sustentadas por vertentes distintas do debate brasileiro sobre a crise de 2016, mas não pretendemos esgotar a literatura nem atribuir cada hipótese a autores específicos. Os valores numéricos atribuídos às verossimilhanças refletem julgamentos plausíveis à luz da reconstrução de Limongi (2023) e do debate público disponível, mas servem ao propósito didático de exibir a maquinaria do método. Uma aplicação substantiva exigiria extrair do livro, com referência a capítulos e páginas, as hipóteses efetivamente mobilizadas, as evidências processuais usadas para sustentá-las, e os pontos em que interpretações rivais discordariam das verossimilhanças atribuídas.}
 
-Uma aplicação substantiva poderia começar por uma tentativa *design-based* — por exemplo, estimar o impacto da Lava Jato sobre apoio parlamentar usando variação temporal, descontinuidades processuais ou comparações com crises políticas análogas — e reportar explicitamente a incerteza resultante. O exemplo abaixo não substitui essa etapa por decreto; ele isola a etapa complementar que frequentemente carrega a inferência em estudos qualitativos: usar evidências de processo e restrições substantivas para discriminar entre explicações rivais quando a estimativa pontual isolada é pouco informativa.
+## O que uma estratégia *design-based* conseguiria dizer?
+
+Uma aplicação substantiva poderia começar por uma estratégia inspirada na revolução da credibilidade. Por exemplo, poderíamos estimar o impacto da Lava Jato sobre apoio parlamentar ao governo usando variação temporal em torno de operações ou delações; explorar votações apertadas e descontinuidades processuais; comparar a trajetória de Dilma com crises presidenciais análogas; ou construir um *donor pool* latino-americano de governos em crise. Esses desenhos são concebíveis e deveriam ser considerados quando a pergunta substantiva permitir.
+
+O problema é que, neste caso, a inferência *design-based* tenderia a ser pouco discriminante. Há poucos eventos comparáveis, múltiplos choques simultâneos entre 2014 e 2016, desfecho agregado no nível da coalizão, mediação por atores estratégicos e contrafactuais imperfeitos. A estatística, tratada honestamente, provavelmente retornaria estimativas com incerteza grande. Isso não mostra que a estratégia é inútil; mostra que, sozinha, ela dificilmente separa mecanismos rivais como crise econômica, pressão das ruas, Lava Jato, decisão de Cunha e deserção intracoalizão.
+
+## O que a análise qualitativa adiciona
+
+A contribuição qualitativa não é adicionar "mais observações" no mesmo formato de uma regressão. Ela acrescenta evidências de processo e restrições estruturais: quem precisava desertar para que dois terços fossem alcançados, quem controlava a pauta, quais eventos mudaram expectativas, quais mecanismos foram tentados antes de funcionar, e por que fatos juridicamente semelhantes produziram efeitos políticos distintos em Dilma e Temer. É precisamente esse tipo de informação que uma reconstrução como a de @Limongi_2023 oferece. Essas informações restringem o espaço de explicações plausíveis e alteram as verossimilhanças relativas: algumas evidências tornam-se muito esperadas sob uma hipótese, pouco esperadas sob outra, e ambíguas sob uma terceira.
 
 ## Hipóteses rivais
 
-Selecionamos três explicações que organizam vertentes do debate:
+Selecionamos seis explicações que organizam vertentes do debate. As cinco primeiras são monocausais ou parciais; a sexta é a hipótese composta sugerida pela reconstrução de @Limongi_2023:
 
-- $H_1$ — *Crise econômica e perda de coalizão*: a recessão de 2014–2016 (PIB negativo, desemprego em alta, inflação ascendente) destruiu a popularidade do governo e precipitou o colapso da coalizão parlamentar;
-- $H_2$ — *Desgaste por escândalos e Lava Jato*: a Operação Lava Jato e a sucessão de delações premiadas envolvendo o PT minaram a base política e legitimaram simbolicamente o impeachment;
-- $H_3$ — *Mobilização das elites político-econômicas*: setores das elites econômicas e do Congresso utilizaram as "pedaladas fiscais" como pretexto institucional para destituir um governo cujas políticas distributivas se opunham a seus interesses.
+- $H_1$ — *Jurídico-formal*: as "pedaladas fiscais" e os decretos orçamentários constituíram fundamento suficiente para abertura e aprovação do impeachment;
+- $H_2$ — *Ruas e opinião pública*: a mobilização social anti-Dilma tornou politicamente inevitável a deserção parlamentar;
+- $H_3$ — *Crise econômica e queda de popularidade*: a recessão de 2014–2016 destruiu a aprovação do governo, reduziu incentivos parlamentares para sustentar Dilma e precipitou o colapso da coalizão;
+- $H_4$ — *Cunha como empreendedor individual*: Eduardo Cunha, por controle da pauta e conflito com o governo, foi o motor decisivo do processo;
+- $H_5$ — *Lava Jato simples*: a Operação Lava Jato, ao atingir o PT e legitimar a pauta anticorrupção, derrubou Dilma diretamente;
+- $H_6$ — *Deserção intracoalizão mediada pela Lava Jato*: o impeachment resultou de deserção estratégica da coalizão governista, ativada e reconfigurada pela Lava Jato, mediada pelo *gatekeeping* de Cunha e pelo cálculo de que Temer oferecia melhor proteção e acesso a poder para PMDB, PSDB, PP e aliados.
 
-Em sua versão substantiva, as hipóteses não são logicamente exclusivas — fatores econômicos, escândalos e mobilização de elites podem coexistir como contribuintes parciais. Para fins desta ilustração, tratamos cada uma como pretensão de fator dominante e estipulamos $\sum_i P(H_i) = 1$.
+Em sua versão substantiva, essas hipóteses não são logicamente exclusivas. Crise econômica, impopularidade, rua, escândalos, Cunha e Lava Jato podem coexistir como contribuintes parciais. Para fins desta ilustração, tratamos cada hipótese como pretensão de explicação dominante e estipulamos $\sum_i P(H_i) = 1$.
 
 ## Evidências
 
-Três evidências centrais, observáveis publicamente:
+Sete evidências de processo e de contexto ajudam a discriminar entre as hipóteses:
 
-- $E_1$ — Queda da aprovação de Dilma de 47% (Datafolha, fev/2014) para 8% (Datafolha, ago/2015);
-- $E_2$ — Concentração temporal das delações premiadas e operações de busca e apreensão da Lava Jato no período jul/2015–mar/2016;
-- $E_3$ — Conteúdo dos discursos parlamentares na votação aberta do impeachment (abril/2016), dominado por temas de família, Deus e patriotismo, e não por argumentos econômicos ou de corrupção específica.
+- $E_1$ — Queda acentuada da aprovação presidencial em 2014–2015, em meio à recessão e ao desgaste do segundo governo Dilma;
+- $E_2$ — As "pedaladas" e decretos orçamentários tornam-se fundamento jurídico processualmente utilizável, embora não apareçam inicialmente como causa política suficiente do impeachment;
+- $E_3$ — Rua e oposição aumentam a pressão, mas não produzem por si só os dois terços necessários antes da deserção de partidos da base;
+- $E_4$ — Petrobras, Pasadena, "Volta Lula" e disputas internas envolvendo PT, PMDB, PP e aliados revelam fraturas intracoalizão anteriores ao desfecho;
+- $E_5$ — Cunha aceita o pedido de impeachment após aumento de risco pessoal na PGR e acirramento do conflito com o governo e com o PT na Comissão de Ética;
+- $E_6$ — A reativação da Lava Jato contra Lula/Dilma, o choque Odebrecht e a articulação PMDB-PSDB em torno de Temer ampliam o cálculo defensivo dos partidos;
+- $E_7$ — Temer sobrevive a denúncias graves depois do impeachment, indicando que escândalo jurídico não produz remoção sem coalizão, enquadramento e controle parlamentar.
 
-## Verossimilhanças
+## Verossimilhanças e posteriors
 
-Atribuímos verossimilhanças $P(E_k | H_i)$ refletindo o quão esperada cada evidência é sob cada hipótese:
+Atribuímos verossimilhanças $P(E_k \mid H_i)$ refletindo o quão esperada cada evidência é sob cada hipótese. **Tabela 1. Verossimilhanças ilustrativas do exemplo do impeachment.**
 
-| Evidência                      | $H_1$ (econômica) | $H_2$ (Lava Jato) | $H_3$ (elites) |
-|--------------------------------|:-----------------:|:-----------------:|:--------------:|
-| $E_1$ (queda popularidade)     |       0,9         |       0,6         |     0,3        |
-| $E_2$ (timing das delações)    |       0,2         |       0,8         |     0,4        |
-| $E_3$ (conteúdo dos discursos) |       0,3         |       0,2         |     0,7        |
+| Evidência | $H_1$ | $H_2$ | $H_3$ | $H_4$ | $H_5$ | $H_6$ |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| $E_1$ aprovação | 0,35 | 0,65 | 0,85 | 0,45 | 0,55 | 0,60 |
+| $E_2$ fundamento jurídico | 0,30 | 0,40 | 0,35 | 0,65 | 0,50 | 0,75 |
+| $E_3$ dois terços | 0,40 | 0,35 | 0,50 | 0,65 | 0,50 | 0,75 |
+| $E_4$ fratura da coalizão | 0,30 | 0,40 | 0,45 | 0,70 | 0,60 | 0,80 |
+| $E_5$ virada de Cunha | 0,30 | 0,35 | 0,35 | 0,90 | 0,60 | 0,75 |
+| $E_6$ Temer/Odebrecht | 0,35 | 0,45 | 0,35 | 0,55 | 0,85 | 0,80 |
+| $E_7$ contraste Temer | 0,25 | 0,40 | 0,45 | 0,50 | 0,45 | 0,75 |
 
-Em decibéis, comparações pareadas para cada evidência:
+Algumas evidências favorecem hipóteses distintas. $E_1$ favorece $H_3$ sobre $H_1$ em $10 \log_{10}(0{,}85/0{,}35) \approx +3{,}9$ dB; $E_5$ favorece $H_4$ sobre $H_1$ em $\approx +4{,}8$ dB; $E_6$ favorece $H_5$ sobre $H_2$ em $\approx +2{,}8$ dB; $E_7$ favorece $H_6$ sobre $H_1$ em $\approx +4{,}8$ dB. Isso é precisamente o que se espera em estudos qualitativos de $n$ pequeno: o conjunto de evidências é multifacetado e não aponta mecanicamente para uma única explicação.
 
-- $E_1$ favorece $H_1$ sobre $H_3$ em $10 \log_{10}(0{,}9 / 0{,}3) \approx +4{,}8$ dB;
-- $E_2$ favorece $H_2$ sobre $H_1$ em $10 \log_{10}(0{,}8 / 0{,}2) \approx +6{,}0$ dB;
-- $E_3$ favorece $H_3$ sobre $H_2$ em $10 \log_{10}(0{,}7 / 0{,}2) \approx +5{,}4$ dB.
+Sob prioris uniformes ($P(H_i) = 1/6$) e a suposição simplificadora de independência condicional das evidências dadas as hipóteses, as probabilidades posteriores normalizadas são:
 
-Cada evidência, isoladamente, favorece uma hipótese diferente — situação realista em estudos qualitativos de $n$ pequeno com explicações causais multifacetadas.
+$$P(H_1 \mid E) \approx 0{,}002 \qquad P(H_2 \mid E) \approx 0{,}013 \qquad P(H_3 \mid E) \approx 0{,}021$$
 
-## Posteriors
+$$P(H_4 \mid E) \approx 0{,}183 \qquad P(H_5 \mid E) \approx 0{,}105 \qquad P(H_6 \mid E) \approx 0{,}676.$$
 
-Sob prioris uniformes ($P(H_i) = 1/3$) e independência condicional das evidências dadas as hipóteses, as probabilidades posteriores normalizadas são:
+Na parametrização ilustrativa, a hipótese mais bem sustentada é $H_6$, a explicação composta de deserção intracoalizão mediada pela Lava Jato. Ela supera $H_4$ (Cunha como empreendedor individual) em $\approx +5{,}7$ dB e $H_5$ (Lava Jato simples) em $\approx +8{,}1$ dB. A conclusão correta não é que $H_6$ esteja "provada", mas que, dado esse conjunto de evidências e essas verossimilhanças, ela acomoda melhor a sequência observada: impopularidade, fundamento jurídico selecionado, limite das ruas, fratura da coalizão, virada de Cunha, risco sistêmico da Lava Jato e contraste com Temer.
 
-$$P(H_1 \mid E_1, E_2, E_3) \approx 0{,}23 \qquad P(H_2 \mid E_1, E_2, E_3) \approx 0{,}41 \qquad P(H_3 \mid E_1, E_2, E_3) \approx 0{,}36$$
+## Sensibilidade
 
-A hipótese mais bem sustentada pelo conjunto de evidências é $H_2$ (Lava Jato), seguida de perto por $H_3$ (elites); $H_1$ (econômica pura) é a menos sustentada. A força da preferência por $H_2$ é, contudo, modesta: a razão de odds $H_2 / H_3$ rende apenas $\approx +0{,}6$ dB, distante do limiar que Fairfield e Charman associam a evidência saliente.
+A análise de sensibilidade mostra onde a controvérsia substantiva realmente se concentra. **Tabela 2. Posteriors sob cenários alternativos de verossimilhança.**
 
-## Sensibilidade e enumeração
+| Hipótese | Base | Cunha mais forte | Lava Jato simples mais forte |
+|---|:---:|:---:|:---:|
+| $H_1$ jurídico | 0,002 | 0,001 | 0,002 |
+| $H_2$ ruas | 0,013 | 0,010 | 0,010 |
+| $H_3$ economia | 0,021 | 0,016 | 0,017 |
+| $H_4$ Cunha | 0,183 | 0,359 | 0,151 |
+| $H_5$ Lava Jato simples | 0,105 | 0,083 | 0,265 |
+| $H_6$ composta | 0,676 | 0,531 | 0,555 |
 
-A análise é frágil em duas direções. Primeiro, alterar uma única verossimilhança realinha o *ranking*: se julgarmos $P(E_2 \mid H_3) = 0{,}6$ — aceitando que setores de elite podem ter mobilizado e aproveitado estrategicamente o cronograma da Lava Jato —, $P(H_3 \mid E)$ sobe para aproximadamente $0{,}50$ e ultrapassa $H_2$. Segundo, e mais importante para o argumento desta nota, a análise depende criticamente do conjunto de rivais considerado. Uma quarta hipótese plausível — $H_4$, *erro estratégico do PT na gestão da coalizão* (escolha de Temer como vice; isolamento parlamentar progressivo a partir de 2014) — não foi incluída. Sua inclusão exigiria recalcular os *posteriors* e poderia modificar a comparação de modo qualitativo: $H_4$ é particularmente compatível com $E_1$ (queda da popularidade reflete percepção de governo desgovernado) e parcialmente com $E_3$ (discursos focados em valores são compatíveis com captura de uma agenda comportamental pela oposição em vácuo programático).
+No cenário "Cunha mais forte", aumentamos a compatibilidade de $H_4$ com a seleção do fundamento jurídico, a barreira dos dois terços, a fratura da coalizão, a articulação Temer/Odebrecht e o contraste com Temer. $H_4$ sobe para 0,359, mas ainda não supera $H_6$ (0,531), porque a hipótese personalista precisa absorver eventos que excedem a vontade individual de Cunha. No cenário "Lava Jato simples mais forte", aumentamos a compatibilidade de $H_5$ com o fundamento jurídico, a barreira dos dois terços, a fratura da coalizão, a virada de Cunha e o contraste com Temer. $H_5$ sobe para 0,265, mas ainda fica atrás de $H_6$ (0,555), porque a operação só produz remoção por meio de coalizão, rito, partidos e cálculo de sobrevivência.
 
-## Discussão
+## Moral metodológica
 
-O exercício ilustra três pontos centrais. Primeiro, a comparação Bayesiana de rivais produz inferência operacional mesmo com $n = 1$: a pergunta "por que esse caso?" é respondida em termos de probabilidade posterior diante de um conjunto explícito de explicações concorrentes. Segundo, a sensibilidade do *ranking* à atribuição numérica das verossimilhanças é uma virtude, não um defeito: ela torna explícitos os pontos de discordância entre pesquisadores e permite *análise de robustez* via prioris e verossimilhanças alternativas. Terceiro, e crucial para o argumento desta nota, a objeção mais informativa contra esta análise não é "e se houver uma variável $U$ não-observada confundindo a relação?": postulada abstratamente, qualquer terceira variável é livremente conjeturável e não interage com nenhum padrão observado em particular. A objeção informativa é "qual rival adicional não foi considerado, e como sua inclusão alteraria a comparação?" — pergunta que tem resposta concreta (por exemplo, $H_4$ acima), que muda a comparação de modo verificável e que disciplina a discussão entre pesquisadores.
+O exercício ilustra o argumento central desta nota. Uma tentativa *design-based* sobre o efeito da Lava Jato, da crise econômica ou de outro choque sobre apoio parlamentar não é dispensada; ela disciplinaria a incerteza sobre estimativas pontuais. Mas, quando essa incerteza é grande, a análise qualitativa torna-se informativa ao transformar evidências de processo em restrições explícitas sobre hipóteses rivais. A pergunta deixa de ser apenas "qual é o efeito pontual preciso da Lava Jato?" e passa a ser "qual explicação torna o conjunto de evidências mais esperado?".
 
-Note-se ainda que admitir $H_4$ como candidata à incorporação instancia o protocolo de saturação por enumeração incremental descrito nas considerações finais: cada nova rival considerada e justificada amplia o conjunto e qualifica a defensabilidade da inferência. O próximo passo substantivo seria incluí-la formalmente, atribuir verossimilhanças e recalcular os *posteriors*. A admissão pública de rivais adicionais opera o método; é parte constitutiva da prática de credibilidade da enumeração, no mesmo registro em que a discussão pública de *threats to identification* é parte constitutiva da credibilidade do desenho na revolução da credibilidade.
+Esse deslocamento também muda a objeção de credibilidade. A crítica útil não é "e se houver uma variável omitida?", formulada de modo abstrato; é "qual rival substantiva não foi considerada, e como sua inclusão alteraria a comparação?". A resposta exige nova hipótese, novas verossimilhanças e novo cálculo de *posteriors*. Esse é o protocolo de saturação por enumeração incremental descrito nas considerações finais: cada rival adicional, se substantivamente justificada, amplia o conjunto e qualifica a defensabilidade da inferência.
 
 # Transportabilidade, Generalização ou Validade Externa
 

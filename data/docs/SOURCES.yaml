@@ -1,0 +1,36 @@
+sources:
+  - id: limongi_fora_da_politica_part1
+    name: "Operação Impeachment | com Fernando Limongi | Primeira Parte | 177"
+    provider: "Fora da Política Não Há Salvação / YouTube"
+    url: "https://www.youtube.com/watch?v=FRCE4DQViGM"
+    access_method: yt-dlp
+    requires_credentials: false
+    license: "Not specified in YouTube metadata"
+    variables_used:
+      - "audio"
+      - "automatic_transcript"
+    temporal_coverage: "2023-05-13 upload; 88.1 minutes transcribed"
+    geographic_coverage: "Brazil"
+    unit_of_analysis: "podcast episode"
+    download_script: "scripts/python/download_limongi_podcast_audio.py"
+    transcription_script: "scripts/python/transcribe_limongi_whisper.py"
+    date_accessed: "2026-05-09"
+    notes: "Portuguese automatic subtitles were attempted with yt-dlp but failed due YouTube HTTP 429; audio was transcribed locally with openai-whisper small."
+
+  - id: limongi_fora_da_politica_part2
+    name: "Operação Impeachment | com Fernando Limongi | Segunda Parte | 178"
+    provider: "Fora da Política Não Há Salvação / YouTube"
+    url: "https://www.youtube.com/watch?v=m8j09NLRgSk"
+    access_method: yt-dlp
+    requires_credentials: false
+    license: "Not specified in YouTube metadata"
+    variables_used:
+      - "audio"
+      - "automatic_transcript"
+    temporal_coverage: "2023-05-20 upload; 91.1 minutes transcribed"
+    geographic_coverage: "Brazil"
+    unit_of_analysis: "podcast episode"
+    download_script: "scripts/python/download_limongi_podcast_audio.py"
+    transcription_script: "scripts/python/transcribe_limongi_whisper.py"
+    date_accessed: "2026-05-09"
+    notes: "Portuguese automatic subtitles were attempted with yt-dlp but failed due YouTube HTTP 429; audio was transcribed locally with openai-whisper small."

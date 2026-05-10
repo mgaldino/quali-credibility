@@ -21,6 +21,18 @@
 # RStudio files
 .Rproj.user/
 
+# Python local environments
+.venv*/
+__pycache__/
+*.py[cod]
+
+# Large local media files (do not version; no Git LFS in this repo)
+/data/raw/audio/**/*.mp4
+/data/raw/audio/**/*.m4a
+/data/raw/audio/**/*.webm
+/data/raw/audio/**/*.wav
+/data/raw/audio/**/*.mp3
+
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
@@ -40,7 +52,7 @@ vignettes/*.pdf
 .Renviron
 
 # pkgdown site
-docs/
+/docs/
 
 # translation temp files
 po/*~
@@ -67,6 +79,7 @@ apsr-condacc-combined.pdf
 Spirling_Stewart_*.pdf
 Livro_desenho_de_pesquisa*.pdf
 Inference to the Best Explanation*.pdf
+DiD_deChaisemartin_dHaultfoeuille.pdf
 paper_dados_format_quali_v[0-9]*.pdf
 
 # Arquivos administrativos / submissao (NAO versionar)
