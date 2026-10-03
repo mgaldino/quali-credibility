@@ -1,0 +1,101 @@
+---
+title: "Validade Externa - nota"
+author: "Manoel"
+date: "2025-03-19"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+# Validade Interna e Externa em Estudos Qualitativos: Separando Identificação Causal e Inferência Estatística
+
+Para mostrar o erro conceitual de misturar identificação com inferência, será útil utilizar um framework proposto por @imai_etal_2008. Os autores decompõe o erro de um estimador em erro amostral e erro de desbalanceamento. Entretanto, como queremos mostrar a diferença ente identificação e inferência, é necessário reescrever a equação principal do trabalho em termos de resultados potenciais. 
+Como se sabe, a ideia de resultados potenciais é que, em um tratamento (por exemplo) binário, $D_i \in \{0,1\}$, podemos observar um de dois resultados possíveis (potenciais) para cada unidade ou observação: $Y(1)$, ou seja, o valor da variável resposta se a unidade recebeu o tratamento, ou $Y(0)$, o valor da resposta se a unidade está no grupo controle. Assim, definimos o efeito causal individual como:
+
+$$
+Y_i(1) - Y_i(0),
+$$
+
+E a chamada *switching equation* conecta resultados observados aos resultaods potenciais:
+
+$$
+y_i = Y_i(1)D_i - Y_i(0)(1-D_i),
+$$
+
+Podemos então definir o efeito médio na população (PATE) e na amostra (SATE) como
+
+$$
+\text{PATE} = \frac{1}{N}\sum_{i=1}^N \{Y_i(1)-Y_i(0)\}, \quad \text{SATE} = \frac{1}{n}\sum_{i: I_i=1} \{Y_i(1)-Y_i(0)\}.
+$$
+
+O estimador padrão, dado pela diferença nas médias dos grupos tratados e de controle na amostra,
+
+$$
+D = \frac{1}{n_1}\sum_{i: I_i=1,\,D_i=1} Y_i(1) - \frac{1}{n_0}\sum_{i: I_i=1,\,D_i=0} Y_i(0),
+$$
+
+possui um erro total definido como
+
+$$
+\Delta = \text{PATE} - D.
+$$
+
+Seguindo a decomposição de  @imai_etal_2008, esse erro pode ser separado em dois componentes (reescritos aqui em termos de resultados potenciais):
+
+1. **Erro de Seleção Amostral ($\Delta_S$):**
+
+   $$
+   \Delta_S = \text{PATE} - \text{SATE} = \frac{1}{N}\sum_{i=1}^N \{Y_i(1)-Y_i(0)\} - \frac{1}{n}\sum_{i: I_i=1} \{Y_i(1)-Y_i(0)\}.
+   $$
+
+   Esse termo reflete a diferença entre o efeito médio na população e o efeito médio na amostra, sendo puramente um problema de inferência estatística – ou seja, um problema de seleção amostral que não tem a ver com o mecanismo de tratamento em si.
+
+2. **Erro de Desequilíbrio no Tratamento ($\Delta_T$):**
+
+   $$
+   \Delta_T = \text{SATE} - D = \frac{1}{n}\sum_{i: I_i=1} \{Y_i(1)-Y_i(0)\} - \left[\frac{1}{n_1}\sum_{i: I_i=1,\,D_i=1} Y_i(1) - \frac{1}{n_0}\sum_{i: I_i=1,\,D_i=0} Y_i(0)\right].
+   $$
+
+   Esse componente mensura o quanto a estimativa \(D\) se desvia do SATE em razão do desequilíbrio entre os grupos tratados e de controle. Se a condição de ignorabilidade (ou *unconfoundedness*) for satisfeita – isto é, se a atribuição ao tratamento for independente dos potenciais outcomes, condicionada aos covariáveis – então o desequilíbrio entre os grupos \(\Delta_T\) será zero.
+
+A partir dessa decomposição, o argumento central que propomos é que muitos estudos qualitativos confundem a **identificação causal** com a **inferência estatística**. Especificamente, a identificação – que se apoia na condição de ignorabilidade – está intimamente ligada ao componente \(\Delta_T\): se ignorabilidade for satisfeita, o mecanismo de tratamento não introduz vieses na identificação do efeito causal dentro da amostra. Por outro lado, o erro de seleção amostral (\(\Delta_S\)) não é consequência de uma falha na identificação, mas sim de variações amostrais.
+
+Em outras palavras, enquanto o \(\Delta_T\) pode ser mitigado por um design adequado que garanta ignorabilidade (por meio do balanceamento de covariáveis, por exemplo), o \(\Delta_S\) reflete a dificuldade (de inferência estatística) inerente de generalizar resultados de uma amostra para a população total. Essa distinção é crucial: é incorreto concluir que a ausência de "representatividade" (um problema de \(\Delta_S\)) implica falha na identificação causal (\(\Delta_T\)). A confusão nos estudos qualitativos advém justamente de não separar essas duas dimensões, levando à interpretação equivocada de que limitações na inferência estatística comprometem também a validade interna ou a identificação do efeito causal.
+
+Dessa forma, nossa contribuição destaca que, ao adotar frameworks formais, é possível isolar o efeito do desequilíbrio no tratamento (e, portanto, a identificação causal) do problema de seleção amostral, permitindo uma análise mais clara e robusta dos métodos qualitativos em inferência causal.
+
+### Como podemos aplicar esse resultado para estudos de caso?
+
+Suponha um estudo de dois casos, em uma análise de controle comparada [ref] e um tratamento binário aleatoriamente atribuído entre os dois casos. Pode ser que essa amostra seja muito distinta do verificado na população e, portanto, o efeito causal estimado seja muito diferente do verificado na população, ainda que os dois casos sejam ignoráveis, isto é, sejam permutáveis em termos dos resultados potenciais. Isso se deve ao erro $\Delta S$ apresentado acima. Ainda que isso signifique uma limitação na capacidade de generalização para outros casos da mesma população, não há propriamente problema de validade interna. Ademais, se o objetivo da pesquisa foi entender os caoss propriamente e não extrapolar para outras observações, então o estudo é perfeitamente válido (supondo que a condição de ignoraboility é satisfeita). Nesses casos, a incerteza pode ser quantificada utilizando inferência Bayesiana, já que não há necessidade de nuúmero mínimo de observações para usar a maquinaria Bayesiana.
+
+Por outro lado, se houver violação do pressuposto de ignorabilidade, a ameaça à validade interna advém desse problema, e não do $n$ ser pequeno.
+
+
+
+
+
+Isso é fácil de verificar, mas vale notar que na derivação de um estimador não-viesado em um contexto do estimador de Mínimos Quadrados Ordinários, o tamanho amostrarl é irrelevante. Isso porque a propriedade é de um estimador e ser ou não-viesado é uma propriedade populacional, não amostral. As suposições envolvidas basicamente requerem que a esperança condicional do erro ao tratamento seja zero, variabilidade no tratamento e amostra aleatória simples. A amostra aleatória simples é em geral difícil de defender em estudos de casos, mas igualmente difícil em estudos observacionais com amostras de conveniência (municípios com segundo turno, municípios onde há dados disponíveis, países com dados disponíveis etc.). Outra possibilidade de interpretação, baseada na ideia de estudo baseado em desenho, isto é, em que supomos aleatoridade do mecanismo de atribuição do tratamento é dada pelo fato de que só observamos um dos resultados potenciais: Y_1(1) ou  Y_1(0) para o primeiro caso e similarmente para o segundo caso Y_2(1) ou  Y_2(0). Portanto, podemos definir que um estimador ou desenho de pesquisa produzirá estimativas não-viesadas do efeito causal se a estimativa é a mesma quer observemos o par (Y_1(1) e Y_2(0)) ou (Y_2(1) e Y_1(0)). Isso, a rigor, é o que significaria validade interna de um estudo, definindo de maneira análoga ao que é feito para estudos quantitativos. A suposição chave, como em estudos quantitativos, é de ignorability forte, isto é, não há variáeis de confusão omitidas da análise. E similarmente, é a credibilidade dessa suposição que irá justificar a crença nas estimativas obtidas ou não.
+
+Em um desenho de pesquisa de process tracing, é mais adequado pensar essas questões a partir de DAGs. A ideia é que um tratamento $X$ causa $Y$ por meio de uma série de $k$ mecanismos (que podem ser encadeados ou independentes) $M_1, M_2, ..., M_k$.
+
+A validade externa, em estudos quanttiativos, pode ser definida na notação de resultados potenciais do seguinte modo. Seja $D_i$ uma variável binária que indica se uma unidade está na amostra ($D_i = 0$) ou na população de interesse ($D_i=1$). Dizemos que existe validade externa se $\mathbb{E}[Y_i(1) - Y_i(0)|D_i=0] = \mathbb{E}[Y_i(1) - Y_i(0)|D_i=1]$. Em palavras, a diferença média nos resultados potenciais do tratamento e controle na população de interesse é igual ao da população de onde foi retirada a amostra. Veja que essa formulação deixa claro que é sem propósito definir validade externa como a situação em que a população de interesse é a população de onde foi retirada a amostra. Se o estimador é não-viesado, essa igualdade é satisfeita por definição (ou trivialmente satisfeita) e a adição de uma notação especial para tratar desse tema seria desnecessária. Logo, a razão para introduzir notação adicional (a variácvel binária indicando se um indivídio está na amostra ou na população) serve justamente para tratar do caso não-trivial em que a população de interesse é potencialmente distinta. De fato, a definição de validade externa, introduzida por @campbell_1957, define validade externa como uma situação em que o efeito de um tratamento estimado em uma população é o mesmo sob idêntica intervenção em outra população [@muller_2015]. Nesse sentido, validade interna é quando o estimador do efeito do tratamento é não-viesado.
+
+Ignorability: This means a unit can’t select into the treament based on their potential benefits\
+
+## Esparsidade
+
+Em vez de imaginar que estudos qualitativos comparados estão fazendo uma "regressão informal" ou um "matching informal", parece-nos mais produtivo aproximar a pesquisa do desenho de pesquisa quantitativo "Double Lasso".
+
+A ideia do Double Lasso é utiliza duas vezes a técnica de regularização LASSO, que é a sigla para Least Aboslut Shrinkage Selector and Operator. O que o LASSO faz é penalizar coeficientes de uma regressão, de tal forma que apenas aquelas muito relevantes ou preditivas terão coeficiente diferente de zero. O LASSO pode ser reinterpretado como um priori Bayesiana duplo exponencial. Nesse sentido, a priori é também uma ferramenta de regularização das estimativas. E o DL envolve aplicar a penalização de LASSO para estimar quais variáveis são preditoras do tratamento e, separadamente, quais variáveis são preditoras da resposta. Esse método é particularmente útil quando temos mais variáveis do que observações. Pensado inicialmente para situações em que o $n$ é grande, mas o número de variáveis é maior ainda, pode ser adptado, pelo menos heuristicamente, para estudos de casos em que o número de variáveis potencialmente confundidoras é maior do que o número de observações.
+
+Se considerarmos que o LASSO, na interpretação Bayesiana, está usando uma priori informativa para induzir esparsividade no vetor de variáveis, isto é, apenas algumas terão coeficiente positivo (em valor absoluto), enquanto as demais terão valor zero (não relevantes), isso é exatamente o que precisamos fazer em estudos de casos comparados. Nesse sentido, não é que estamos tentando aproximar o matching e obter uma comparação de casos em que variáveis são balanceadas entre casos, mas que as hipóteses causais relevantes são poucas.
+
+Os trabalhos clásicos da área, no meu entender, estão fazendo justamente isso. Considere o trabalho de @skocpol_1979 sobre as revoluções. Como ela mesma afirma na introdução, o estudo dos casos Chineses, Russos e Franceses tem a ver com sua frustração com as teorias então vigentes e os mecanismos causais propostos para explicar esses casos. Em outras palavras, teorias alternativas sugerem hipóteses rivais, que ela acredita não são compatíveis com a evidência empírica dos casos. Sua hipótese causal é produzida em contraste com as rivais, e é considerar mais plausível mais provável que as outras, diante das evidências. Não se trata, portanto, de um desenho metodológico que permita eliminar a possibilidade de variáveis de confusão à explicação proposta, mas de avaliar quais das hipóteses rivais é mais compatível com a evidência empírica dos casos.
+
+O argumento central aqui é que não é um bom desenho de pesquisa análise de casos com apenas uma hipótese a ser testada. Isso porque a hipótese rival é apenas a negação lógica, e inclui toda e qualquer possível relação causal com alguma viés de variável omitida. Se esse tip ode abordagem já foi abandonada como recomendável pela revolução da credibilidade, é igualmente problemático em estudos qualitativos. Porém, um desenho de pesquisa que avalie a plausibilidade de hipóteses rivais contorna o problema da variável omitida. Não se trata de mostrar que a hipótese explicativa mais provável não é confundinda por alguma variável omitida. Mas de mostrar que, diante das principais hipóteses explicativas sugeridas pela literatura, ela é a mais provável. Isso é, em meu entender, exatamente o que Skocpol fez em sua obra clássica. Se houver uma nova hipótese sugerida no futuro, pode ser comparada diante de evidências antigas ou novas e avaliada.
+
+Conectando com o argumento do Double LASSO, estamos argumentando que a produção de hipóteses deve favorecer poucas e as mais relevantes, de acordo com conhecimento a priori (da teoria), como fez Skocpol. E então deve ser avaliada como explicação diante das evidências. O passo adicional que estamos defendendo é que esse mesmo procedimento deve ser empregado para discutir as causas dos mecanismos principais. Novamente, o trabalgho de Skocpol faz isso quando investiga os efeitos da revoluçao sobre a centralização e organização do estado.

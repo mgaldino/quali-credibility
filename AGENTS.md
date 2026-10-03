@@ -102,7 +102,13 @@ Rscript -e 'rmarkdown::render("paper_dados_format_quali.Rmd", output_format = "p
 - Commits e push exigem autorização explícita do autor.
 - Ao final de mudanças substantivas, informar arquivos alterados, testes/compilação feitos e pendências.
 
+## Trabalho Em Curso — Releitura Da v8 (Desde 2026-10-02)
+
+O autor está relendo o PDF da v8 e ditando problemas para discussão. Antes de qualquer outra tarefa, ler `quality_reports/2026-10-03_handoff-releitura.md` (passagem de sessão, com as regras do autor que vivem fora deste repo) e `quality_reports/2026-10-02_notas-releitura.md` (registro dos problemas). Nesta fase, registrar e discutir; não editar o manuscrito até o autor decidir como endereçar cada problema.
+
 ## Próximos Passos Recomendados
+
+Lista anterior à releitura de 2026-10-02; a releitura tem prioridade.
 
 1. Rodar Devil's Advocate Round 2 sobre o paper já com o estudo de caso reescrito.
 2. Se o score ainda ficar abaixo de 80, corrigir os pontos substantivos indicados.
