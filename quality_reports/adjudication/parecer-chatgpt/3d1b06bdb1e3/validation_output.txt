@@ -1,0 +1,2 @@
+VALID: quality_reports/adjudication/parecer-chatgpt/3d1b06bdb1e3/adjudication_round1.json
+VALID: quality_reports/adjudication/parecer-chatgpt/3d1b06bdb1e3/adjudication_safe_component.json

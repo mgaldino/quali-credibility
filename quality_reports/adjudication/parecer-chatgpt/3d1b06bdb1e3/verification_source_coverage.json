@@ -1,0 +1,28 @@
+{
+  "marked_added_or_replaced_content_lines": 47,
+  "unmarked_added_or_replaced_body_lines": [],
+  "new_citation_keys": [
+    "abadie_etal_2020",
+    "chen_pearl_2013",
+    "deChaisemartin_DHaultfoeuille_2026",
+    "mahoney_goertz_2006"
+  ],
+  "new_reference_keys_not_in_yellow_filter": [],
+  "source_blocks_unclosed": false,
+  "hashes": {
+    "paper_dados_format_quali.Rmd": "a0fabc7bca51c28ab9190b266a4c6726527fd3d35003093c98abb3a010d92386",
+    "paper_dados_format_quali.pdf": "959f7e87ca334925052e01d817ab1d15f3fe5728fc65d10252418d07bb97cc4e",
+    "Quali-credibilidade.bib": "ffd6e6be2e2bc7657ecb7f497f1be652d6781b439181ed38f90c6b0c0c49d0e5",
+    "scripts/impeachment_bayes_example.R": "ba0809181d727c27b7947155b212dc19bfaf3fdffa598c8879ebc738f57481c4",
+    "scripts/codex_highlight.lua": "b33e2b3a915c8003b8aeb6c84fd55901c86eb66ffeb4c4298eebe1aaa6143d7e",
+    "data/derived/impeachment_bayes_example/posteriors.csv": "a8a5f8ed50a5e91b211d03f7b913d3fe9b8e4a5fe2e77254a6d15deadad4df77",
+    "data/derived/impeachment_bayes_example/leave_one_evidence_out.csv": "4ad6a0d706358faf7674d1ab14769d22f45dae3035c8695a6d7a454b62832036",
+    "data/derived/impeachment_bayes_example/prior_odds_thresholds.csv": "5445ebacd4fb1234de7bebb4876c8b9bb37e8206c294b248e820d0e508f3bc86"
+  },
+  "pdf_text_contains_restored_causal_logic": true,
+  "pdf_text_contains_McDermott_alternative": true,
+  "pdf_text_contains_loeo": true,
+  "composition_only_formula_paragraph_equal_after_math_delimiter_normalization": true,
+  "bib_script_and_numeric_outputs_unchanged_from_previous_verification": true,
+  "pdf_pages": 45
+}

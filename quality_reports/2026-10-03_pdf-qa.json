@@ -1,0 +1,360 @@
+{
+  "status": "PASS_mechanical",
+  "scope": "Renderização, presença de amarelo e limites físicos do texto; não verifica argumento, números ou cobertura semântica da marcação.",
+  "pdf": "paper_dados_format_quali.pdf",
+  "pdf_sha256": "959f7e87ca334925052e01d817ab1d15f3fe5728fc65d10252418d07bb97cc4e",
+  "source_sha256": "a0fabc7bca51c28ab9190b266a4c6726527fd3d35003093c98abb3a010d92386",
+  "script_sha256": "051415c1f43fcb29446ddb95b6eb754ba7ca718f1dafddb5c69dfdcd55b85839",
+  "page_count": 45,
+  "pages_with_yellow": [
+    1,
+    3,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    15,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    40,
+    41,
+    42,
+    44
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "word_count": 282,
+      "yellow_pixels_at_792px_height": 115323,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 2,
+      "word_count": 356,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 3,
+      "word_count": 356,
+      "yellow_pixels_at_792px_height": 166672,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 4,
+      "word_count": 353,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 5,
+      "word_count": 354,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 6,
+      "word_count": 336,
+      "yellow_pixels_at_792px_height": 137896,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 7,
+      "word_count": 337,
+      "yellow_pixels_at_792px_height": 43832,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 8,
+      "word_count": 344,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 9,
+      "word_count": 337,
+      "yellow_pixels_at_792px_height": 189952,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 10,
+      "word_count": 323,
+      "yellow_pixels_at_792px_height": 214417,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 11,
+      "word_count": 267,
+      "yellow_pixels_at_792px_height": 187528,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 12,
+      "word_count": 355,
+      "yellow_pixels_at_792px_height": 29765,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 13,
+      "word_count": 340,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 14,
+      "word_count": 396,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 15,
+      "word_count": 413,
+      "yellow_pixels_at_792px_height": 121995,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 16,
+      "word_count": 317,
+      "yellow_pixels_at_792px_height": 154865,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 17,
+      "word_count": 353,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 18,
+      "word_count": 446,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 19,
+      "word_count": 290,
+      "yellow_pixels_at_792px_height": 53095,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 20,
+      "word_count": 290,
+      "yellow_pixels_at_792px_height": 98810,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 21,
+      "word_count": 299,
+      "yellow_pixels_at_792px_height": 44610,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 22,
+      "word_count": 364,
+      "yellow_pixels_at_792px_height": 96952,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 23,
+      "word_count": 357,
+      "yellow_pixels_at_792px_height": 43540,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 24,
+      "word_count": 400,
+      "yellow_pixels_at_792px_height": 83597,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 25,
+      "word_count": 331,
+      "yellow_pixels_at_792px_height": 63571,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 26,
+      "word_count": 335,
+      "yellow_pixels_at_792px_height": 34075,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 27,
+      "word_count": 361,
+      "yellow_pixels_at_792px_height": 28044,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 28,
+      "word_count": 342,
+      "yellow_pixels_at_792px_height": 32048,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 29,
+      "word_count": 303,
+      "yellow_pixels_at_792px_height": 59616,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 30,
+      "word_count": 315,
+      "yellow_pixels_at_792px_height": 67116,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 31,
+      "word_count": 286,
+      "yellow_pixels_at_792px_height": 94198,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 32,
+      "word_count": 312,
+      "yellow_pixels_at_792px_height": 148369,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 33,
+      "word_count": 298,
+      "yellow_pixels_at_792px_height": 63887,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 34,
+      "word_count": 307,
+      "yellow_pixels_at_792px_height": 79772,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 35,
+      "word_count": 335,
+      "yellow_pixels_at_792px_height": 141916,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 36,
+      "word_count": 390,
+      "yellow_pixels_at_792px_height": 67597,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 37,
+      "word_count": 387,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 38,
+      "word_count": 331,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 39,
+      "word_count": 410,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 40,
+      "word_count": 307,
+      "yellow_pixels_at_792px_height": 207646,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 41,
+      "word_count": 46,
+      "yellow_pixels_at_792px_height": 36420,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 42,
+      "word_count": 497,
+      "yellow_pixels_at_792px_height": 37238,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 43,
+      "word_count": 464,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 44,
+      "word_count": 490,
+      "yellow_pixels_at_792px_height": 9455,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    },
+    {
+      "page": 45,
+      "word_count": 186,
+      "yellow_pixels_at_792px_height": 0,
+      "words_beyond_page_bounds": [],
+      "words_beyond_horizontal_margin_with_tolerance": []
+    }
+  ]
+}

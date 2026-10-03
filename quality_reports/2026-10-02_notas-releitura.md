@@ -1,7 +1,7 @@
 # Notas de releitura — v8 (PDF compilado em 2026-05-09)
 
 **Data**: 2026-10-02
-**Status**: notas abertas. Problemas levantados pelo autor na releitura, para discutir antes de decidir como endereçar. Nenhuma edição no manuscrito.
+**Status atualizado em 2026-10-03**: implementação dos problemas já documentados autorizada pelo autor, com intervenções marcadas em amarelo no PDF. O registro da discussão de 2026-10-02 permanece abaixo; os números de linha e os diagnósticos daquela discussão descrevem o estado anterior à implementação. Registro da entrega: `quality_reports/2026-10-03_revisao-marcada.md`.
 
 Números de linha referem-se a `paper_dados_format_quali.Rmd` no estado de 2026-10-02 (working tree, com mudanças não commitadas).
 
@@ -101,4 +101,28 @@ Relatório integral: `quality_reports/2026-10-02_lit-check-design-model-sampling
 
 ---
 
-## Problema 2 — (a preencher)
+## Implementação do Problema 1 — 2026-10-03
+
+### Autorização e condições do autor
+
+O autor decidiu abandonar o ditado do Problema 2 e pediu que fossem endereçados os problemas já documentados. Autorizou editar o paper sob duas condições: renderizar em amarelo tudo que o agente escrever e preservar sua voz, usando como referência o original submetido à BPSR, inteiramente escrito por ele. A confusão do original não deve ser preservada em nome da voz.
+
+### Escolhas de implementação
+
+- **Localização do argumento expandido (item g):** subseção própria, “Justificativas da inferência estatística”, antes do framework Bayesiano. Isso permite definir as três fontes de aleatoriedade antes de apresentar a probabilidade subjetivista e evita classificá-la como uma quarta fonte frequentista de aleatoriedade.
+- **Probabilidade Bayesiana (item e):** explicitar seu sentido epistêmico, aplicável tanto ao desconhecimento de relações determinísticas quanto a modelos com choques estocásticos. Preservar que as suposições causais são proposições sobre o mundo.
+- **Exemplo da chuva:** manter operações policiais e comparecimento eleitoral como exemplo hipotético, sem afirmar um efeito observado da PRF em 2022. O argumento conceitual não precisa de uma alegação empírica nova sobre essa eleição.
+- **Referências:** acrescentar de Chaisemartin & D’Haultfœuille, citando a versão preliminar de 27/02/2026 e §2.4, e Chen & Pearl (2013). Mobilizar Abadie et al. (2020), Mahoney & Goertz (2006), Keele (2015) e KKV já disponíveis no `.bib`. Não introduzir as pontes opcionais com Mahoney (2008), VanderWeele–Robins ou uma nova citação de Seawright nesta intervenção.
+- **Outros usos de design-based:** substituir o rótulo inferencial por “estratégias/tecnologias da revolução da credibilidade” nos trechos sobre identificação. Reancorar o paralelo com a enumeração de rivais na defesa substantiva das suposições, preservando a distinção entre identificar um efeito e comparar explicações.
+
+Essas são escolhas do agente para concretizar a autorização geral de implementação, oferecidas à revisão do autor no PDF amarelo. Não são registradas como decisões conceituais anteriores do autor. A alternativa de misturar identificação e inferência por compartilharem uma suposição continuou descartada, conforme decisão expressa acima.
+
+### Parecer do ChatGPT
+
+O parecer foi lido integralmente e confrontado com o manuscrito e as fontes antes da implementação. Aplicaram-se nove achados locais confirmados ou componentes confirmados de achados parciais. O relatório global não foi tratado como autorização para redesenhar a contribuição. A exaustividade da enumeração continua como compromisso substantivo do artigo; não foi declarada demonstrada por um diagnóstico de estabilidade. A hipótese integrada de Limongi, a matriz didática e os cenários numéricos originais foram preservados.
+
+Adjudicação e conferência independente: `quality_reports/adjudication/parecer-chatgpt/3d1b06bdb1e3/`. Registro de alterações, verificações e limites: `quality_reports/2026-10-03_revisao-marcada.md`.
+
+## Problema 2 — não registrado
+
+Em 2026-10-03, o autor informou que esqueceu o problema e decidiu deixá-lo de lado. Nenhum conteúdo foi inferido para preencher este item.

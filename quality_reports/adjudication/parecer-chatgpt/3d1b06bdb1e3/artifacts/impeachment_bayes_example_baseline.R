@@ -7,16 +7,7 @@ posterior <- function(likelihoods, priors = NULL) {
     priors <- rep(1 / nrow(likelihoods), nrow(likelihoods))
   }
 
-  stopifnot(
-    is.matrix(likelihoods), nrow(likelihoods) > 1L,
-    ncol(likelihoods) > 0L, all(is.finite(likelihoods)),
-    all(likelihoods >= 0 & likelihoods <= 1),
-    length(priors) == nrow(likelihoods), all(is.finite(priors)),
-    all(priors >= 0), sum(priors) > 0
-  )
-
   unnormalized <- priors * apply(likelihoods, 1, prod)
-  stopifnot(sum(unnormalized) > 0)
   unnormalized / sum(unnormalized)
 }
 
@@ -112,58 +103,3 @@ cat(
   round(db(results$base["H6_composta"], results$base["H5_lava_jato_simples"]), 1),
   "\n"
 )
-
-# Sensibilidade à evidência sob o MESMO modelo didático independente.
-# Não estima nem corrige a dependência entre evidências reais.
-leave_one_evidence_out <- sapply(seq_len(ncol(likelihoods_base)), function(k) {
-  posterior(likelihoods_base[, -k, drop = FALSE])
-})
-colnames(leave_one_evidence_out) <- colnames(likelihoods_base)
-loeo_summary <- data.frame(
-  evidencia_retirada = colnames(likelihoods_base),
-  modelo_preferido = rownames(likelihoods_base)[
-    apply(leave_one_evidence_out, 2, which.max)
-  ],
-  posterior_H6 = leave_one_evidence_out["H6_composta", ],
-  row.names = NULL
-)
-
-# Limiar exato de prior odds: H6 supera Hj se prior odds H6/Hj > 1/BF.
-# É um diagnóstico condicional, não uma prior elicitada ou Occam penalty.
-joint_likelihoods <- apply(likelihoods_base, 1, prod)
-other_models <- setdiff(names(joint_likelihoods), "H6_composta")
-bf_H6 <- joint_likelihoods["H6_composta"] / joint_likelihoods[other_models]
-prior_thresholds <- data.frame(
-  rival = other_models,
-  bayes_factor_H6_rival = unname(bf_H6),
-  limiar_prior_odds_H6_rival = unname(1 / bf_H6)
-)
-
-# Verificações dos diagnósticos e preservação da parametrização de base.
-stopifnot(
-  all(abs(colSums(leave_one_evidence_out) - 1) < 1e-12),
-  all(loeo_summary$modelo_preferido == "H6_composta"),
-  abs(sum(results$base) - 1) < 1e-12
-)
-for (j in other_models) {
-  priors_at_threshold <- rep(1, nrow(likelihoods_base))
-  names(priors_at_threshold) <- rownames(likelihoods_base)
-  priors_at_threshold["H6_composta"] <-
-    joint_likelihoods[j] / joint_likelihoods["H6_composta"]
-  at_threshold <- posterior(likelihoods_base, priors_at_threshold)
-  stopifnot(abs(at_threshold["H6_composta"] - at_threshold[j]) < 1e-12)
-}
-
-output_dir <- file.path("data", "derived", "impeachment_bayes_example")
-dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
-write.csv(
-  data.frame(hipotese = rownames(likelihoods_base), do.call(cbind, results)),
-  file.path(output_dir, "posteriors.csv"), row.names = FALSE
-)
-write.csv(loeo_summary, file.path(output_dir, "leave_one_evidence_out.csv"),
-          row.names = FALSE)
-write.csv(prior_thresholds, file.path(output_dir, "prior_odds_thresholds.csv"),
-          row.names = FALSE)
-
-print(loeo_summary)
-print(prior_thresholds)

@@ -1,0 +1,54 @@
+                      base cunha_mais_forte lava_jato_simples_mais_forte
+H1_juridico          0.002            0.001                        0.002
+H2_ruas              0.013            0.010                        0.010
+H3_economia          0.021            0.016                        0.017
+H4_cunha             0.183            0.359                        0.151
+H5_lava_jato_simples 0.105            0.083                        0.265
+H6_composta          0.676            0.531                        0.555
+
+Base odds H6/H4 in dB: 5.7 
+Base odds H6/H5 in dB: 8.1 
+
+Pesos não-normalizados:
+         H1_juridico              H2_ruas          H3_economia 
+        0.0000551250         0.0003822000         0.0006149883 
+            H4_cunha H5_lava_jato_simples          H6_composta 
+        0.0054898594         0.0031556250         0.0202500000 
+
+Ranking de base:
+[1] "H6_composta"          "H4_cunha"             "H5_lava_jato_simples"
+[4] "H3_economia"          "H2_ruas"              "H1_juridico"         
+
+Leave-one-rival-out preserva ranking restrito e odds:
+             removida       top_1 ranking_restrito_preservado erro_maximo_odds
+          H1_juridico H6_composta                        TRUE     7.105427e-15
+              H2_ruas H6_composta                        TRUE     7.105427e-15
+          H3_economia H6_composta                        TRUE     1.421085e-14
+             H4_cunha H6_composta                        TRUE     8.881784e-16
+ H5_lava_jato_simples H6_composta                        TRUE     5.684342e-14
+          H6_composta    H4_cunha                        TRUE     1.421085e-14
+
+Leave-one-evidence-out sob o modelo independente ilustrativo:
+           removida       top_1 posterior_H6
+       E1_aprovacao H6_composta    0.6349212
+        E2_juridico H6_composta    0.6046552
+     E3_dois_tercos H6_composta    0.6106252
+        E4_coalizao H6_composta    0.6185787
+           E5_cunha H6_composta    0.6522987
+ E6_temer_odebrecht H6_composta    0.6059898
+ E7_contraste_temer H6_composta    0.5680042
+
+Partição de prioris:
+      A_particao_original.A    A_uniforme_nova_particao 
+                  0.6000000                   0.8571429 
+A_massa_original_preservada 
+                  0.6000000 
+
+BF H6/H4 e fronteira de prior odds para inverter preferência par a par:
+               BF_H6_H4.H6_composta prior_odds_H6_H4_at_tie.H6_composta 
+                          3.6886191                           0.2711042 
+
+Rivais não exaustivas: P(A)=0,4, P(B)=0,3, P(outro)=0,3; soma A+B=0,7.
+Rivais sobrepostas: P(A)=0,6, P(B)=0,6, P(A intersecção B)=0,2; soma A+B=1,2.
+
+PASS: todas as verificações aritméticas especificadas.

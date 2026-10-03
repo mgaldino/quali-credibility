@@ -1,0 +1,40 @@
+                      base cunha_mais_forte lava_jato_simples_mais_forte
+H1_juridico          0.002            0.001                        0.002
+H2_ruas              0.013            0.010                        0.010
+H3_economia          0.021            0.016                        0.017
+H4_cunha             0.183            0.359                        0.151
+H5_lava_jato_simples 0.105            0.083                        0.265
+H6_composta          0.676            0.531                        0.555
+
+Base odds H6/H4 in dB: 5.7 
+Base odds H6/H5 in dB: 8.1 
+                      base cunha_mais_forte lava_jato_simples_mais_forte
+H1_juridico          0.002            0.001                        0.002
+H2_ruas              0.013            0.010                        0.010
+H3_economia          0.021            0.016                        0.017
+H4_cunha             0.183            0.359                        0.151
+H5_lava_jato_simples 0.105            0.083                        0.265
+H6_composta          0.676            0.531                        0.555
+
+Base odds H6/H4 in dB: 5.7 
+Base odds H6/H5 in dB: 8.1 
+  evidencia_retirada modelo_preferido posterior_H6
+1       E1_aprovacao      H6_composta    0.6349212
+2        E2_juridico      H6_composta    0.6046552
+3     E3_dois_tercos      H6_composta    0.6106252
+4        E4_coalizao      H6_composta    0.6185787
+5           E5_cunha      H6_composta    0.6522987
+6 E6_temer_odebrecht      H6_composta    0.6059898
+7 E7_contraste_temer      H6_composta    0.5680042
+                 rival bayes_factor_H6_rival limiar_prior_odds_H6_rival
+1          H1_juridico            367.346939                0.002722222
+2              H2_ruas             52.982732                0.018874074
+3          H3_economia             32.927457                0.030369792
+4             H4_cunha              3.688619                0.271104167
+5 H5_lava_jato_simples              6.417112                0.155833333
+
+PASS: matriz e cenários idênticos; base numérica idêntica; LOEO, BF e prior odds verificados independentemente; três CSV correspondem.
+       BF_H6_H4.H6_composta threshold_H6_H4.H6_composta 
+                  3.6886191                   0.2711042 
+                   LOEO_min                    LOEO_max 
+                  0.5680042                   0.6522987 
